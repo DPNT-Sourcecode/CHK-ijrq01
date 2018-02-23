@@ -44,3 +44,4 @@ def checkout(skus):
         if price < 0:
             return -1
         total += price
+    return total
